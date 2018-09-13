@@ -1,0 +1,35 @@
+{
+  "name": "weather-ct",
+  "version": "1.0.1",
+  "description": "终端查天气(支持中国天气网和和风天气)",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+ "bin": {
+        "weathercli": "lib/index.js"
+    },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiwent/cli-weather.git"
+  },
+  "keywords": [
+    "weather",
+    "cli"
+  ],
+  "author": "chiwent",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chiwent/cli-weather/issues"
+  },
+  "homepage": "https://github.com/chiwent/cli-weather#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chalk": "^2.4.1",
+    "js-pinyin": "^0.1.9",
+    "meow": "^5.0.0"
+  }
+}
